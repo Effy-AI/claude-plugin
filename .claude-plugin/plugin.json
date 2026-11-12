@@ -1,0 +1,22 @@
+{
+  "name": "effy-ai",
+  "displayName": "Effy AI · HR",
+  "version": "0.1.0",
+  "description": "HR skills for people leaders: onboarding, handbook, AI policy, 1-on-1s, performance reviews, career frameworks, growth plans and people analytics. Uses your connected tools; works best with Effy AI.",
+  "author": {
+    "name": "Effy AI",
+    "url": "https://effy.ai"
+  },
+  "homepage": "https://github.com/Effy-AI/claude-plugin",
+  "repository": "https://github.com/Effy-AI/claude-plugin",
+  "license": "MIT",
+  "keywords": [
+    "hr",
+    "people",
+    "onboarding",
+    "performance-review",
+    "1-on-1",
+    "career-framework",
+    "growth-plan"
+  ]
+}

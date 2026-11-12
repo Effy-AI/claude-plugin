@@ -12,8 +12,7 @@ The skills work with any connected tools. If you also connect [Effy AI](https://
 read your employee directory, 1-on-1s, growth plans, career tracks and review reports there,
 and can save results back to Effy after you approve them.
 
-Built by [Effy AI](https://effy.ai). Also available as copy-paste prompts in
-[Effy-AI/hr-skills](https://github.com/Effy-AI/hr-skills).
+Built by [Effy AI](https://effy.ai).
 
 ## Skills
 
@@ -33,7 +32,7 @@ Built by [Effy AI](https://effy.ai). Also available as copy-paste prompts in
 | --- | --- |
 | `one-on-one-prep` | Prepares a manager for one 1-on-1: where things stand, open items, what to discuss, 4–6 questions, feedback in situation–behaviour–impact form. |
 | `one-on-one-debrief` | Turns a recording, transcript or rough notes into structured notes: what was discussed, decided, and who owes what by when. |
-| `one-on-one-themes` | Reads months of 1-on-1s across a team and surfaces recurring topics, broken commitments, signals worth attention and coverage gaps. |
+| `one-on-one-analysis` | Reads months of 1-on-1s across a team and surfaces recurring topics, broken commitments, signals worth attention and coverage gaps. |
 
 ### Performance and growth
 

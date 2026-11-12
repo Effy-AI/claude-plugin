@@ -1,5 +1,5 @@
 ---
-name: one-on-one-themes
+name: one-on-one-analysis
 description: Read months of a manager's 1-on-1 notes across their whole team at once and surface the patterns — recurring topics, unresolved commitments (the manager's own first), the manager's own habits, per-person signals of disengagement, overload, flight risk or growth, and coverage gaps — then five concrete actions. Reads Effy AI 1:1 activities and growth plans if connected. Use when the user asks "what am I missing in my 1:1s", "themes across my 1-on-1s", "patterns in my team's 1:1 notes", or wants a review of how their 1:1s are going overall.
 ---
 
