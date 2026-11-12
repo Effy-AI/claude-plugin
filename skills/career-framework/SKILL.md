@@ -1,5 +1,5 @@
 ---
-name: build-career-framework
+name: career-framework
 description: Build or change a career framework in Effy AI — career tracks, level ladders, the competency matrix, promotion signals, anti-patterns, growth paths, and who sits on which level. Reads what's already in Effy, takes the build path when nothing exists and the change path when something does, shows every change as a diff, and writes only after approval. Use for "we have no career ladder", "set up levelling", "build an engineering career path", "add or rename a level", "rewrite the senior expectations", "what does it take to get promoted", or assigning people to levels.
 ---
 
@@ -370,7 +370,7 @@ empty. Name what would most improve the framework next — usually the anti-patt
 sideways growth opportunities. End with:
 
 ```
-Generated from: build-career-framework
+Generated from: career-framework
 Company: [name · domain · headcount]
 Path: [build | change]
 Date: [today]

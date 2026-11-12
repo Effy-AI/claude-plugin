@@ -20,11 +20,11 @@ Built by [Effy AI](https://effy.ai).
 
 | Skill | What it does |
 | --- | --- |
-| `onboarding-process-docs` | Works out how onboarding actually runs from email, calendar, task tools and a short interview, then writes it up as a checklist per owner: HR, hiring manager, buddy, IT, new hire. |
-| `onboarding-plan` | Applies your documented onboarding process to one new hire: a task list with one owner and a date each, welcome email, first-week schedule, draft 30/60/90. Pushes it to your tools after you approve. If no process document exists, it offers to run `onboarding-process-docs` first. |
+| `onboarding-process` | Works out how onboarding actually runs from email, calendar, task tools and a short interview, then writes it up as a checklist per owner: HR, hiring manager, buddy, IT, new hire. |
+| `onboarding-plan` | Applies your documented onboarding process to one new hire: a task list with one owner and a date each, welcome email, first-week schedule, draft 30/60/90. Pushes it to your tools after you approve. If no process document exists, it offers to run `onboarding-process` first. |
 | `employee-handbook` | Researches the company and interviews you, then writes a first usable handbook — every fact sourced, every gap marked, legal sections flagged per country. |
 | `hr-ai-usage-policy` | Writes a one-page AI usage policy for the HR team, aligned with your existing policies and with where your employees and candidates are based. |
-| `hr-context-files` | Sets up the company context future AI sessions run on: org basics, HR calendar, decision log, policies index, one file per HR process. |
+| `hr-context` | Sets up the company context future AI sessions run on: org basics, HR calendar, decision log, policies index, one file per HR process. |
 
 ### 1-on-1s
 
@@ -38,11 +38,11 @@ Built by [Effy AI](https://effy.ai).
 
 | Skill | What it does |
 | --- | --- |
-| `performance-review-draft` | Drafts a self, manager, upward or peer review from your own meetings and tools, every claim cited. |
+| `review-draft` | Drafts a self, manager, upward or peer review from your own meetings and tools, every claim cited. |
 | `review-cycle-analysis` | Turns a review cycle's data into one calibration-ready report: rating patterns per manager, ratings without evidence, company-wide themes, comparison with last cycle. |
-| `review-form-optimizer` | Audits your review forms against last cycle's answers and rewrites the questions. Includes a Python script that computes answer statistics from a CSV export. |
-| `build-career-framework` | Builds or changes career tracks, levels and the competency matrix, and proposes who sits on which level. Every change is shown as a diff before anything is written. |
-| `growth-plan-builder` | Drafts a growth plan for one person from their career level, reviews, 1-on-1s and goals. |
+| `review-form-audit` | Audits your review forms against last cycle's answers and rewrites the questions. Includes a Python script that computes answer statistics from a CSV export. |
+| `career-framework` | Builds or changes career tracks, levels and the competency matrix, and proposes who sits on which level. Every change is shown as a diff before anything is written. |
+| `growth-plan` | Drafts a growth plan for one person from their career level, reviews, 1-on-1s and goals. |
 | `goal-system-audit` | Audits how goals are set, scored and updated from your own trackers and review comments, and proposes what to change first. |
 | `people-analytics-dashboard` | Builds a dashboard — headcount, attrition, engagement, performance, pay equity and more — with the formula under every chart. Builds a labelled sample if you have no data yet. |
 
@@ -54,7 +54,7 @@ run one by name, for example `/effy-ai:onboarding-plan`.
 This section lists everything the skills do outside the conversation.
 
 **Reads.** Only through tools you have connected to Claude yourself: email, calendar, documents
-and drives, meeting notes and transcripts, chat, task trackers, HR and review tools, and Effy AI.
+and drives, meeting notes and transcripts, chat, task trackers, HR and review tools, and Effy AI — plus Claude's own memory and past chats, where your plan has them.
 The skills say what they're about to search before searching. Several use web search for public
 information about your company (its website, careers page, public profiles).
 
@@ -63,11 +63,11 @@ information about your company (its website, careers page, public profiles).
 - **Effy AI**, if connected:
   - knowledge documents — the onboarding process, employee handbook, AI usage policy and HR
     context files;
-  - growth plans — from `growth-plan-builder`, and a new hire's 30/60/90 from
+  - growth plans — from `growth-plan`, and a new hire's 30/60/90 from
     `onboarding-plan`, always created as **Draft**, which Effy keeps hidden from the employee;
   - 1-on-1 notes — from `one-on-one-debrief`. Effy shares these with both participants, and the
     skill tells you so before saving;
-  - career tracks, levels, competencies and level assignments — from `build-career-framework`.
+  - career tracks, levels, competencies and level assignments — from `career-framework`.
 - **Your other tools**, if you ask: a document or page in your wiki or drive; tasks, calendar
   invites and document copies from `onboarding-plan`.
 
@@ -81,7 +81,7 @@ data nowhere except the tools you connected.
 - Connected tools are optional but make the output specific to your company. Effy AI is
   optional; without it, every skill still runs and delivers its result as a document,
   spreadsheet or page.
-- `review-form-optimizer` runs a Python script and needs Python 3 with pandas.
+- `review-form-audit` runs a Python script and needs Python 3 with pandas.
 
 ## Limits
 

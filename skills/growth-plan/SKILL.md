@@ -1,5 +1,5 @@
 ---
-name: growth-plan-builder
+name: growth-plan
 description: Draft a growth plan for one person — career development, personal development, leadership development, or a performance improvement plan — grounded in their career level and what the next level asks, their latest reviews, their 1:1s and goals, then save it to Effy AI as a draft after approval. Use when a manager or HR says "build a growth plan for…", "development plan for…", "IDP", "career plan", "what should X work on to get to the next level", "turn this review into a plan", or "PIP for…".
 ---
 
@@ -61,7 +61,7 @@ the record. Rough order of yield; say in one sentence what you're about to read.
   level's expectations per competency, and the next level's expectations, promotion signals,
   anti-patterns and growth opportunities. This is the spine of a career development plan. If the
   person isn't on a track, say so: the plan can still be built from reviews and the user's input,
-  but the gap analysis will be weaker — and suggest `build-career-framework` for later.
+  but the gap analysis will be weaker — and suggest `career-framework` for later.
 - **Performance reviews** — the latest review reports for this person, as far as the user's access
   allows: ratings, manager comments, self-review, peer feedback. Look for the development areas
   that more than one source names.

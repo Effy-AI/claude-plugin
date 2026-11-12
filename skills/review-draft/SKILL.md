@@ -1,5 +1,5 @@
 ---
-name: performance-review-draft
+name: review-draft
 description: Draft one performance review — a self-review, a manager review of a direct report, an upward review of a manager, or a peer review — from the user's own meetings, notes and tools, answering every question on the review form in the user's voice, with every claim cited and gaps flagged instead of filled. Use when the user asks to write, draft or prepare a performance review, self-assessment, self-evaluation, review for a direct report, upward feedback or peer feedback.
 ---
 

@@ -1,5 +1,5 @@
 ---
-name: onboarding-process-docs
+name: onboarding-process
 description: Document how a company's onboarding actually runs today — reconstructed from email, calendar, task tools, existing docs and a short interview — as one checklist per owner (HR, hiring manager, buddy, IT, new hire). Use when the user wants to document, write up, map or audit their onboarding process, or when onboarding-plan finds no onboarding process document to work from.
 ---
 
