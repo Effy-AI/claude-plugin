@@ -1,3 +1,8 @@
+---
+name: hr-context
+description: Build the HR context documents that make every future AI session and agent useful without re-explaining the company — a folder structure with a README, org basics, HR calendar, decision log, policies index, one document per HR process, and context and feedback logs — assembled from everything already reachable (connected email, calendar, drives, wiki, HR tools, Effy AI knowledge and records, Claude's memory and past chats), confirmed in a short interview, and saved to Effy AI's knowledge or a shared folder. Use whenever someone wants AI to "know" their company's HR, says "set up HR context", "build context files", "stop re-explaining our company to Claude", "prepare our HR knowledge for agents", "organize HR docs for AI", or asks how to get better HR answers from AI, even if they don't say "context".
+---
+
 # Build the HR context for AI
 
 **HR context files setup** (`hr_context`)  

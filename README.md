@@ -1,16 +1,30 @@
-# Effy AI · HR
+# Effy AI
 
-Fifteen HR skills for people leaders and managers at companies of roughly 30 to 1,000 people:
-onboarding, the employee handbook, an AI usage policy, 1-on-1s, performance reviews, career
-frameworks, growth plans, goal audits and people analytics.
+HR skills & performance tools.
 
-Each skill works from your company's own records — the email, calendar, documents, meeting
-notes and HR tools you have connected to Claude — and asks you for what it can't find. Nothing
-is invented: facts come from your data or your answers, and gaps are marked as gaps.
+Effy AI brings practical HR skills and performance management tools into Claude. Use
+specialized workflows to build career frameworks, create growth plans, prepare and analyze
+performance reviews, improve review forms, prepare for 1-on-1s, document onboarding processes,
+create employee handbooks, and build people analytics dashboards.
 
-The skills work with any connected tools. If you also connect [Effy AI](https://effy.ai), they
-read your employee directory, 1-on-1s, growth plans, career tracks and review reports there,
+Connect your Effy workspace to work with your people data and performance management
+workflows. Get structured, evidence-based insights and turn HR work into practical next steps.
+
+The plugin has fifteen skills for people leaders and managers at companies of roughly 30 to
+1,000 people. Each skill works from your company's own records — the email, calendar,
+documents, meeting notes and HR tools you have connected to Claude — and asks you for what it
+can't find. Nothing is invented: facts come from your data or your answers, and gaps are marked
+as gaps.
+
+## Effy AI connection
+
+Installing the plugin adds the [Effy AI](https://effy.ai) connector (`https://go.effy.ai/mcp`).
+You sign in with your Effy account the first time a skill uses it. With Effy connected, the
+skills read your employee directory, 1-on-1s, growth plans, career tracks and review reports,
 and can save results back to Effy after you approve them.
+
+Effy is optional. If you don't sign in, every skill still runs on your other connected tools
+and delivers its result as a document, spreadsheet or page.
 
 Built by [Effy AI](https://effy.ai).
 
@@ -54,7 +68,8 @@ run one by name, for example `/effy-ai:onboarding-plan`.
 This section lists everything the skills do outside the conversation.
 
 **Reads.** Only through tools you have connected to Claude yourself: email, calendar, documents
-and drives, meeting notes and transcripts, chat, task trackers, HR and review tools, and Effy AI — plus Claude's own memory and past chats, where your plan has them.
+and drives, meeting notes and transcripts, chat, task trackers, HR and review tools, and Effy AI
+(through the `https://go.effy.ai/mcp` connector this plugin adds) — plus Claude's own memory and past chats, where your plan has them.
 The skills say what they're about to search before searching. Several use web search for public
 information about your company (its website, careers page, public profiles).
 
@@ -73,7 +88,7 @@ information about your company (its website, careers page, public profiles).
 
 The skills never send email or messages, submit reviews, change a growth plan's status or
 access, or contact employees on your behalf. The plugin has no server of its own and sends
-data nowhere except the tools you connected.
+data nowhere except the tools you connected and the Effy AI connector above.
 
 ## Requirements
 
@@ -89,6 +104,10 @@ These skills are not legal, tax or compensation advice. Sections that depend on 
 data-protection law are marked for review by a qualified person, and no skill recommends pay
 amounts. Flags about people — attrition risk, rating patterns, disengagement — are signals for
 a human to look into, not conclusions.
+
+## Privacy
+
+The Effy AI connector is covered by the [Effy AI privacy policy](https://www.effy.ai/privacy-policy).
 
 ## License
 
