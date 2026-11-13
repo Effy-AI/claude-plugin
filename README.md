@@ -107,7 +107,7 @@ a human to look into, not conclusions.
 
 ## Privacy
 
-The Effy AI connector is covered by the [Effy AI privacy policy](https://www.effy.ai/privacy-policy).
+The Effy AI connector is covered by the [Effy AI privacy policy](https://www.effy.ai/privacy).
 
 ## License
 

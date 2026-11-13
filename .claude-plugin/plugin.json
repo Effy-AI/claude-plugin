@@ -7,7 +7,7 @@
     "name": "Effy AI",
     "url": "https://effy.ai"
   },
-  "homepage": "https://github.com/Effy-AI/claude-plugin",
+  "homepage": "https://www.effy.ai/claude",
   "repository": "https://github.com/Effy-AI/claude-plugin",
   "license": "MIT",
   "keywords": [
@@ -22,5 +22,8 @@
     "people-analytics"
   ],
   "icon": ".claude-plugin/icon.png",
-  "privacyPolicyUrl": "https://www.effy.ai/privacy-policy"
+  "privacyPolicyUrl": "https://www.effy.ai/privacy",
+  "documentationUrl": "https://intercom.help/effy/en/collections/19809657-effy-ai-2-0",
+  "supportUrl": "mailto:support@effy.ai",
+  "termsOfServiceUrl": "https://www.effy.ai/terms"
 }
