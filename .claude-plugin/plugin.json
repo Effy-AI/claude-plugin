@@ -1,8 +1,8 @@
 {
   "name": "effy-ai",
-  "displayName": "Effy AI · HR",
+  "displayName": "Effy AI",
   "version": "0.1.0",
-  "description": "HR skills for people leaders: onboarding, handbook, AI policy, 1-on-1s, performance reviews, career frameworks, growth plans and people analytics. Uses your connected tools; works best with Effy AI.",
+  "description": "HR skills & performance tools: career frameworks, growth plans, performance reviews, review forms, 1-on-1s, onboarding, handbooks and people analytics. Connects to your Effy AI workspace.",
   "author": {
     "name": "Effy AI",
     "url": "https://effy.ai"
@@ -17,6 +17,10 @@
     "performance-review",
     "1-on-1",
     "career-framework",
-    "growth-plan"
-  ]
+    "growth-plan",
+    "performance-management",
+    "people-analytics"
+  ],
+  "icon": ".claude-plugin/icon.png",
+  "privacyPolicyUrl": "https://www.effy.ai/privacy-policy"
 }
